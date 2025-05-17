@@ -1,0 +1,4 @@
+format: jb-book
+root: paper/index
+chapters:
+  - file: paper/appendices

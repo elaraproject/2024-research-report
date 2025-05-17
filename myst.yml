@@ -1,0 +1,52 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "Project Elara 2024 research and development report"
+  subtitle: "An end-of-year overview of research conducted by Project Elara"
+  license: Unlicense
+  keywords: ["space", "space-based solar power", "space technologies", "open science"]
+  subject: Report
+  data_availability: "All data is available at https://github.com/elaraproject/elara-labs"
+  authors: 
+    - name: "Jacky Song"
+      orcid: 0009-0006-3463-8469
+      affiliation: rpi
+      github: songtech-0912
+      url: "https://songtech-0912.github.io"
+    - name: "Emiliano Vilchis"
+      affiliation: rpi
+    - name: "Nicholas Schnorbus"
+      affiliation: rpi
+    - name: "Milo Schnack"
+      affiliation: rpi
+    - name: "Charles Wang"
+      affiliation: rpi
+  affiliations:
+    - id: rpi
+      institution: Rensselaer Polytechnic Institute
+      ror: https://ror.org/01rtyzb94
+      isni: 0000 0001 2160 9198
+  open_access: true
+  github: https://github.com/elaraproject/2024-research-report
+  date: 2024-10-21
+  exports:
+  - format: pdf
+    article: paper/index.md
+    template: lapreprint
+    output: public/2024-research-report.pdf
+    id: pdf-export
+  downloads:
+    - id: pdf-export
+      title: Download PDF
+  banner: assets/banner.png
+ 
+site:
+  title: "Project Elara 2024 research and development report"
+  template: article-theme
+  options:
+    logo: assets/project-logo.svg
+    logo_dark: assets/project-logo.svg
+    logo_text: "Project Elara 2024 Report"
+    hide_footer_links: true
+    hide_toc: true
+    favicon: assets/favicon.ico
