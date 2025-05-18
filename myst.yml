@@ -13,14 +13,6 @@ project:
       affiliation: rpi
       github: songtech-0912
       url: "https://songtech-0912.github.io"
-    - name: "Emiliano Vilchis"
-      affiliation: rpi
-    - name: "Nicholas Schnorbus"
-      affiliation: rpi
-    - name: "Milo Schnack"
-      affiliation: rpi
-    - name: "Charles Wang"
-      affiliation: rpi
   affiliations:
     - id: rpi
       institution: Rensselaer Polytechnic Institute
