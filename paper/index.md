@@ -63,7 +63,7 @@ $$
 From this point on, only the expressions for the electric field are written and it is implied that the same expressions are true for the magnetic field up to the replacement $\mathbf{E} \rightarrow \mathbf{B}$. The Helmholtz equation was prepared in variational form (weak form) for obtaining a numerical solution by the finite element method. By multiplication with a test function $\Phi (\mathbf{x})$, integrating over the simulation domain $\Omega$, and simplifying via the Divergence Theorem, one obtains the general variational form:
 
 $$
-\int_{\Omega} \Phi \cdot \mathbf{E} \hspace{0.17em}
+\int_{\Omega} k^2 \Phi \cdot \mathbf{E} \hspace{0.17em}
       dV - \int_{\Omega}
 \nabla_J \mathbf{E} : \nabla_J \Phi \hspace{0.17em}
       dV + \int_{\partial
@@ -102,7 +102,7 @@ $$
 + \int_{\partial \Omega} = 0
 $$
 
-The derivation of this is found in [Appendix A](#appendix-A), which is separately available. Simulations were done with the FreeFEM++ software [@MR3043640] with a custom FreeFEM-based solver. This solver was written in the `FreeFEM` language and utilizes `FreeFEM++`'s built-in finite-element solver and mesh discretizer, but otherwise is completely custom and tailored to the specific simulation parameters. A solution in transformed $(x', y')$ coordinates was first obtained, before the built-in  polynomial interpolation was used to transform the solution to $(x, y)$ coordinates, as shown in [](#fig2a) and [](#fig2b).
+The derivation of this is found in [](#appendix-A), which is separately available. Simulations were done with the FreeFEM++ software [@MR3043640] with a custom FreeFEM-based solver. This solver was written in the `FreeFEM` language and utilizes `FreeFEM++`'s built-in finite-element solver and mesh discretizer, but otherwise is completely custom and tailored to the specific simulation parameters. A solution in transformed $(x', y')$ coordinates was first obtained, before the built-in polynomial interpolation was used to transform the solution to $(x, y)$ coordinates, as shown in [](#fig2a) and [](#fig2b). The domain was discretized straightforwardly by assuming a simple geometry of the antenna as a perfect paraboloid, as shown in [](#appendix-B).
 
 :::{figure} fig/solution-xyprimed.png
 :label: fig2a

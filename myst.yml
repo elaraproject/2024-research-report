@@ -27,9 +27,16 @@ project:
     template: lapreprint
     output: public/2024-research-report.pdf
     id: pdf-export
+  - format: pdf
+    article: paper/appendices.md
+    template: lapreprint
+    output: public/2024-research-report-appendices.pdf
+    id: appendix-export
   downloads:
     - id: pdf-export
       title: Download PDF
+    - id: appendix-export
+      title: Download Appendix
   banner: assets/banner.png
  
 site:
