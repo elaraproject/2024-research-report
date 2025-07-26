@@ -13,6 +13,10 @@ Project Elara is a nonprofit dedicated to being part of creating a future powere
 This is the second edition of Project Elara's 2024 research report, which was originally released on October 21st, 2024. It is dedicated to the public domain and licensed under the [Unlicense](https://unlicense.org/).
 :::
 
+```{warning}
+Project Elara has switched over to the open-source forge [Codeberg](https://codeberg.org/). The Project Elara repositories have been moved to [this Codeberg page](https://codeberg.org/elaraproject/), and the most recent version of the paper can be found on the [new Project Elara research website](https://research.elaraproject.org/2024-research-report/). **This version of the paper is no longer maintained**.
+```
+
 # Overview
 
 The Sun is a star, a nuclear furnace with a power output[^1] of $3.828 \times 10^{26}  \text{ W}$ [@mamajek2015iau2015resolutionb3]. Meanwhile, Earth's global power consumption[^2] in 2019 was $2.61 \times 10^{12} \text{ W}$ [@ieareport], 14 orders of magnitude below the power output of the sun. Even the most powerful artificial fusion reactor could hardly match the 4.6 billion-year-old, 2 trillion-quadrillion-ton one at the center of the Solar System. However, Earth-based solar power, while highly successful, has not truly delivered on the full possibilities of harnessing the energy of the Sun.

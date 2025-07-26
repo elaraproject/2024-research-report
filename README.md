@@ -4,9 +4,11 @@ This repository houses the sources for Project Elara's 2024 research report.
 
 A live version of the paper can be [freely viewed online](https://elaraproject.github.io/2024-research-report/).
 
-> Everything in this report is released to the **public domain** like the rest of [Project Elara](https://github.com/elaraproject/), meaning it is essentially **unlicensed research**, so you can use it for basically any project you want, _however_ you want, with or without attribution.
+> :warning: **IMPORTANT:** Project Elara has switched over to the open-source forge [Codeberg](https://codeberg.org/). The Project Elara repositories have been moved to [this Codeberg page](https://codeberg.org/elaraproject/). **This GitHub repository is no longer maintained**.
 
 ## Development
+
+> Everything in this report is released to the **public domain** like the rest of [Project Elara](https://github.com/elaraproject/), meaning it is essentially **unlicensed research**, so you can use it for basically any project you want, _however_ you want, with or without attribution.
 
 This report is built with [MyST](https://mystmd.org/). To get started, first clone the repository:
 
